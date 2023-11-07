@@ -1,0 +1,49 @@
+*{
+  box-sizing: border-box;  
+  padding: 0;
+  margin: 0;
+ 
+}  
+
+.autocomplete__container {
+  padding-top: 64px;
+  width: 400px;
+  margin: 0 auto;
+  background-color: transparent;
+  font-family: 'Raleway', sans-serif;
+  margin-right: 40px;
+  }
+
+body{
+  min-height: 100vh;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-image: url('./assets/bg.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
+
+.css-bhp9pd-MuiPaper-root-MuiCard-root {
+  height: 100%;
+  padding-top: 5px;
+  background-color: rgba(5,4,2,0.1) !important;
+  margin-top: 40px;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.wrapper-container {
+  margin: 20px;
+}
